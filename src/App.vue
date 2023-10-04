@@ -1,18 +1,19 @@
 <script setup>
 import TopMenu from './components/TopMenu.vue';
+import Footer from './components/Footer.vue';
 </script>
 <template>
   <div>
-    <TopMenu/>
-  <section class="flex">
-    <aside class="w-[450px] bg-black ">
+    <TopMenu />
+  <section class=" block md:hidden">
+    <aside  class="w-[300px] bg-black ">
       <router-view name="LeftSideBar"></router-view>
-    </aside>
-    <main class="w-full min-h-screen p-5">
-      <router-view></router-view>
-    </main>
+    </aside>    
   </section>
-  <footer></footer>
+    <main id="main" class="w-full overflow-x-auto overflow-y-scroll p-8">
+      <router-view ></router-view>
+    </main>
+  <Footer />
   </div>
 </template>
 <style scoped></style>

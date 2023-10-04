@@ -1,7 +1,7 @@
 <template>
-    <div>  
-   
-   <div class="bg-primaryDark fixed z-10 text-white px-6 py-6 w-full shadow-md">
+<div>  
+    
+   <div class="hidden md:block bg-primaryDark fixed z-10 text-white px-6 py-6 w-full shadow-md">
      <div class="container-fluid mx-auto flex justify-center items-center gap-4">
        
        <div class="w-[250px] lg:w-[160px] text-xl font-bold">
@@ -139,17 +139,17 @@
                    </li>
                    <li>
                      <a href="#" class="w-10 h-10 bg-secondaryDark  hover:text-black hover:bg-white rounded-full flex items-center justify-center">
-                       <i class="fa fa-twitter text-[14px] leading-8" aria-hidden="true"></i>
+                       <i class="fa-brands fa-twitter text-[14px] leading-8" aria-hidden="true"></i>
                      </a>
                  </li>
                    <li>
                      <a href="#" class="w-10 h-10 bg-secondaryDark  hover:text-black hover:bg-white rounded-full flex items-center justify-center">
-                       <i class="fa fa-telegram text-[14px] leading-8" aria-hidden="true"></i>
+                       <i class="fa-brands fa-telegram text-[14px] leading-8" aria-hidden="true"></i>
                      </a>
                  </li>
                    <li>
                      <a href="#" class="w-10 h-10 bg-secondaryDark  hover:text-black hover:bg-white rounded-full flex items-center justify-center">
-                       <i class="fa fa-qq text-[14px] leading-8" aria-hidden="true"></i>
+                       <i class="fa-brands fa-qq text-[14px] leading-8" aria-hidden="true"></i>
                      </a>
                  </li>
                    <li>
@@ -174,15 +174,11 @@
    } else {
      dropdown1.value.handleOpen();
    }
- }
+ } 
+
  </script>
  <style scoped>
- .example-showcase .el-dropdown-link {
-   cursor: pointer;
-   color: #fff;
-   display: flex;
-   align-items: center;
- 
- }
+
+
  </style>
  
