@@ -1,10 +1,10 @@
 <template>
-    <div class="main container mx-auto pt-[20px] md:pt-[130px] relative ">
+    <div class="main container mx-auto pt-[130px] relative ">
         <div class="" >
           <article class="shadow mb-12">
               <a href="">
                 <div class="post-card h-[300px]">
-                  <div class="bg-[url('/images/bannerOne.jpg')]  blog-background ">                      
+                  <div class="bg-[url('/images/dm-1.jpg')]  blog-background ">                      
                       <div class="post-card-mask ">
                           <div class="post-card-container flex flex-col w-full justify-center items-center text-primary">
                             <h2 class="post-card-title text-2xl mb-2">Lisa 疯马秀来了！Lisa 巴黎疯马秀首演视频！51 吃瓜全网首发
@@ -26,7 +26,7 @@
           <article class="shadow mb-12">
               <a href="">
                 <div class="post-card h-[300px]">
-                  <div class="bg-[url('/images/bannedTwo.jpg')]  blog-background ">                      
+                  <div class="bg-[url('/images/dm-2.jpg')]  blog-background ">                      
                       <div class="post-card-mask ">
                           <div class="post-card-container flex flex-col w-full justify-center items-center text-primary">
                             <h2 class="post-card-title text-2xl mb-2">Lisa 疯马秀来了！Lisa 巴黎疯马秀首演视频！51 吃瓜全网首发
@@ -48,7 +48,7 @@
           <article class="shadow mb-12">
               <a href="">
                 <div class="post-card h-[300px]">
-                  <div class="bg-[url('/images/bannerThree.gif')]  blog-background ">                      
+                  <div class="bg-[url('/images/dm-3.jpg')]  blog-background ">                      
                       <div class="post-card-mask ">
                           <div class="post-card-container flex flex-col w-full justify-center items-center text-primary">
                             <h2 class="post-card-title text-2xl mb-2">
@@ -68,7 +68,7 @@
           <article class="shadow mb-12">
               <a href="">
                 <div class="post-card h-[300px]">
-                  <div class="bg-[url('/images/bannerFour.jpg')]  blog-background ">                      
+                  <div class="bg-[url('/images/dm-4.jpg')]  blog-background ">                      
                       <div class="post-card-mask ">
                           <div class="post-card-container flex flex-col w-full justify-center items-center text-primary">
                             <h2 class="post-card-title text-2xl mb-2">  记者冒死偷拍记录真实的缅北 真实版的孤注一掷  揭露缅北 KK 园区真实面貌 强奸 电击 水刑 噶腰子 堪称人间炼狱  </h2>
@@ -106,7 +106,7 @@
           <article class="shadow mb-12">
               <a href="">
                 <div class="post-card h-[300px]">
-                  <div class="bg-[url('/images/b-6.jpg')]  blog-background ">                      
+                  <div class="bg-[url('/images/dm-5.jpg')]  blog-background ">                      
                       <div class="post-card-mask ">
                           <div class="post-card-container flex flex-col w-full justify-center items-center text-primary">
                             <h2 class="post-card-title text-2xl mb-2"> 迎新晚会抹胸露乳继续跳！ 军训风波未平 迎新晚会又起 各大高校开始吊带甩奶舞才艺大比拼   

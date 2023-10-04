@@ -1,16 +1,14 @@
 <template>
-    <div class="main container mx-auto pt-[20px] md:pt-[130px] relative ">
+    <div class="main container mx-auto pt-[130px] relative ">
         <div class="" >
           <article class="shadow mb-12">
               <a href="">
                 <div class="post-card h-[300px]">
-                  <div class="bg-[url('/images/bannerOne.jpg')]  blog-background ">                      
+                  <div class="bg-[url('/images/bs-1.jpg')]  blog-background ">                      
                       <div class="post-card-mask ">
                           <div class="post-card-container flex flex-col w-full justify-center items-center text-primary">
                             <h2 class="post-card-title text-2xl mb-2">Lisa 疯马秀来了！Lisa 巴黎疯马秀首演视频！51 吃瓜全网首发
-                              <div class="wrap">
-                                <span class="wraps">热搜 HOT</span>
-                              </div>
+                            
                             </h2>
                             <div class="post-card-info text-primary ">
                               <span >瓜农・</span>                                        
@@ -26,13 +24,11 @@
           <article class="shadow mb-12">
               <a href="">
                 <div class="post-card h-[300px]">
-                  <div class="bg-[url('/images/bannedTwo.jpg')]  blog-background ">                      
+                  <div class="bg-[url('/images/bs-2.jpg')]  blog-background ">                      
                       <div class="post-card-mask ">
                           <div class="post-card-container flex flex-col w-full justify-center items-center text-primary">
                             <h2 class="post-card-title text-2xl mb-2">Lisa 疯马秀来了！Lisa 巴黎疯马秀首演视频！51 吃瓜全网首发
-                              <div class="wrap">
-                                <span class="wraps">热搜 HOT</span>
-                              </div>
+                              
                             </h2>
                             <div class="post-card-info text-primary ">
                               <span >瓜农・</span>                                        
@@ -48,7 +44,7 @@
           <article class="shadow mb-12">
               <a href="">
                 <div class="post-card h-[300px]">
-                  <div class="bg-[url('/images/bannerThree.gif')]  blog-background ">                      
+                  <div class="bg-[url('/images/bs-3.gif')]  blog-background ">                      
                       <div class="post-card-mask ">
                           <div class="post-card-container flex flex-col w-full justify-center items-center text-primary">
                             <h2 class="post-card-title text-2xl mb-2">

@@ -1,0 +1,64 @@
+{
+    "homeContents":[
+        {
+            "id": 1,
+            "bannerUrl":"/images/bannerOne.jpg",
+            "title": "Lisa 疯马秀来了！Lisa 巴黎疯马秀首演视频！51 吃瓜全网首发 ",
+            "description":"",
+            "tags":"今日吃瓜，明星黑料",
+            "datePublished":"2023 年 09 月 29 日・",
+            "author":"瓜农・",
+            "hotsearch":"热搜 HOT"
+        },
+        {
+            "id": 2,
+            "bannerUrl":"/images/bannerTwo.jpg",
+            "title": " 网传 快手网红 史小越 被前男友骗至 缅北 被冷冻死亡事件！真是吃人不吐骨头啊！",
+            "description":"",
+            "tags":"今日吃瓜，网红黑料",
+            "datePublished":"2023 年 10 月 01 日・",
+            "author":"瓜姐・",
+            "hotsearch":"热搜 HOT"
+        },
+        {
+            "id": 3,
+            "bannerUrl":"/images/bannerThree.gif",
+            "title": "",
+            "description":"",
+            "tags":"",
+            "datePublished":"",
+            "author":"",
+            "hotsearch":""
+        },
+        {
+            "id": 4,
+            "bannerUrl":"",
+            "title": "",
+            "description":"",
+            "tags":"",
+            "datePublished":"",
+            "author":"",
+            "hotsearch":""
+        },
+        {
+            "id": 5,
+            "bannerUrl":"",
+            "title": "",
+            "description":"",
+            "tags":"",
+            "datePublished":"",
+            "author":"",
+            "hotsearch":""
+        },
+        {
+            "id": 6,
+            "bannerUrl":"",
+            "title": "",
+            "description":"",
+            "tags":"",
+            "datePublished":"",
+            "author":"",
+            "hotsearch":""
+        }
+    ]
+}
