@@ -1,5 +1,5 @@
 <template>
-  <div class="main container mx-auto pt-[130px] relative ">
+  <div class="main container mx-auto pt-[20px] md:pt-[130px] ">
       <div class="" >
         <article class="shadow mb-12">
             <a href="">
