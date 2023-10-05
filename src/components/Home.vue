@@ -1,6 +1,6 @@
 <template>
-    <div class="main container mx-auto pt-[20px] md:pt-[130px] relative ">
-        <div class="" >
+    <div class="main container mx-auto pt-[20px] md:pt-[130px] absolute ">
+        <div class=""  >
           <article class="shadow mb-12">
               <a href="">
                 <div class="post-card h-[300px]">

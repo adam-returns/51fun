@@ -16,6 +16,7 @@
   </footer>
 </template>
 <style scoped>
+
 #footer a {
     position: relative;
     white-space: normal;
