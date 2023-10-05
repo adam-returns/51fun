@@ -10,7 +10,7 @@ export default{
 </script>
 <template>
   <div>
-    <section id="mySidebar"  class="bg-[#191919]  text-white" >      
+    <section id="mySidebar"  class="bg-[#191919] w-[300px]  text-white" >      
         <div class="py-6">
             <router-link  to="/">
                 <img class="w-[100px]" src="/images/mobile-logo.png" alt="" />
@@ -45,7 +45,64 @@ export default{
             <router-link to="/posts">Posts</router-link>
           </li>
         </ul>
-        
+        <div class="button-icons bg-[#000] py-2  w-[300px] flex justify-center">
+        <nav>
+          <ul class="flex gap-2">
+            <li>
+              <a
+                href="#"
+                class="w-10 h-10 bg-secondaryDark hover:text-black hover:bg-white rounded-full flex items-center justify-center"
+              >
+                <i class="fa fa-bookmark text-[14px] leading-8"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="w-10 h-10 bg-secondaryDark hover:text-black hover:bg-white rounded-full flex items-center justify-center"
+              >
+                <i
+                  class="fa-brands fa-twitter text-[14px] leading-8"
+                  aria-hidden="true"
+                ></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="w-10 h-10 bg-secondaryDark hover:text-black hover:bg-white rounded-full flex items-center justify-center"
+              >
+                <i
+                  class="fa-brands fa-telegram text-[14px] leading-8"
+                  aria-hidden="true"
+                ></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="w-10 h-10 bg-secondaryDark hover:text-black hover:bg-white rounded-full flex items-center justify-center"
+              >
+                <i
+                  class="fa-brands fa-qq text-[14px] leading-8"
+                  aria-hidden="true"
+                ></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="w-10 h-10 bg-secondaryDark hover:text-black hover:bg-white rounded-full flex items-center justify-center"
+              >
+                <i
+                  class="fa fa-font text-[14px] leading-8"
+                  aria-hidden="true"
+                ></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
       </section>
       
       
@@ -56,17 +113,18 @@ export default{
 
 
 .sidebar a {
-  padding: 8px 8px 8px 8px;
+  padding: 8px;
     text-decoration: none;
     font-size: 22px;
     color: #ccc;
     display: flex;
     transition: 0.5s;
-    width: 300px;
+    /* width: 300px; */
     align-items: center;
     justify-content: center;
 
 }
+
 
 .sidebar a:hover {
  
