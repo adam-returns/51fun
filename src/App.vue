@@ -43,7 +43,7 @@ Footer {
   background-color: #111;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px;
+  /* padding-top: 60px; */
 }
 .mobileBtn {
   transition: 0.5s;

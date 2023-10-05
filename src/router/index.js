@@ -1,7 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../components/Home.vue'
 import EatMelon from '../components/EatMelonToday.vue'
-import Contact from '../components/Contact.vue'
+import DailyMelon from '../components/DailyMelon.vue'
+import PopularBigMelon from '../components/PopularBigMelon.vue'
 import Posts from '../components/Posts.vue'
 import Post from '../components/Post.vue'
 import Sidebar from '../components/sidebar/Sidebar.vue'
@@ -20,8 +21,14 @@ const routes = [
         }
     },
     {
-        path: '/contact', components: {
-            default: Contact,
+        path: '/dailymelon', components: {
+            default: DailyMelon,
+            LeftSideBar: Sidebar
+        }
+    },
+    {
+        path: '/popularbigmelon', components: {
+            default: PopularBigMelon,
             LeftSideBar: Sidebar
         }
     },

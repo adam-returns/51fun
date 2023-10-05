@@ -11,12 +11,12 @@ export default{
 <template>
   <div>
     <section id="mySidebar"  class="bg-[#191919]  text-white" >      
-        <div class="">
+        <div class="py-6">
             <router-link  to="/">
                 <img class="w-[100px]" src="/images/mobile-logo.png" alt="" />
             </router-link>
         </div>
-        <div class="relative w-[300px] my-6">
+        <div class="relative w-[300px] mb-6">
             <form class="form " id="search-form" action="/" role="search">
             <input
                 id="search"
@@ -31,12 +31,15 @@ export default{
             </button>
             </form>
         </div>
-        <ul class="flex flex-col text-center space-y-5">         
+        <ul class="flex flex-col text-center ">         
           <li>
             <router-link to="/eatmelon">今日吃瓜</router-link>
           </li>
           <li>
-            <router-link to="/contact">Contact</router-link>
+            <router-link to="/dailymelon">每日大瓜</router-link>
+          </li>
+          <li>
+            <router-link to="/popularbigmelon">热门大瓜</router-link>
           </li>
           <li>
             <router-link to="/posts">Posts</router-link>
@@ -55,8 +58,8 @@ export default{
 .sidebar a {
   padding: 8px 8px 8px 8px;
     text-decoration: none;
-    font-size: 25px;
-    color: #818181;
+    font-size: 22px;
+    color: #ccc;
     display: flex;
     transition: 0.5s;
     width: 300px;
@@ -66,7 +69,8 @@ export default{
 }
 
 .sidebar a:hover {
-  color: #f1f1f1;
+ 
+  background: #2c2a2a;
 }
 
 </style>
