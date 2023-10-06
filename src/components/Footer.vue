@@ -2,7 +2,7 @@
 
 </script>
 <template>
-  <footer id="footer fixed bottom-0">
+  <footer id="footer">
     <div class="container mx-auto text-xs text-white flex justify-center items-center" >
       <p class="copyright">
         Copyright © 2023
@@ -21,7 +21,7 @@
     position: relative;
     white-space: normal;
 }
-#footer a:hover:after{
+#footer  a:hover:after{
     left: 0;
     width: 100%;
     -webkit-transition: width 350ms;

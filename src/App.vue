@@ -24,12 +24,12 @@ export default{
     <main :style="isActive?'margin-left:300px':'margin-left:0px' " id="main" class="w-full  p-8">
       <router-view ></router-view>
     </main>
-  <Footer :style="isActive?'margin-left:300px':'margin-left:0px' " class="w-full  p-8"/>
+  <Footer :style="isActive?'margin-left:300px':'margin-left:0px' " class="footer w-full p-8"/>
   </div>
 </template>
 <style scoped>
 #main,
-Footer {
+.footer {
   transition: margin-left .5s;
  
 }

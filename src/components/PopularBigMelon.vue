@@ -1,8 +1,8 @@
 <template>
-    <div class="main container mx-auto pt-[130px] relative ">
+    <div class="main container mx-auto pt-[20px] md:pt-[130px] ">
         <div class="" >
           <article class="shadow mb-12">
-              <a href="">
+              <a href="/posts/:id">
                 <div class="post-card h-[300px]">
                   <div class="bg-[url('/images/bs-1.jpg')]  blog-background ">                      
                       <div class="post-card-mask ">
@@ -22,7 +22,7 @@
               </a>
           </article>
           <article class="shadow mb-12">
-              <a href="">
+              <a href="/posts/:id">
                 <div class="post-card h-[300px]">
                   <div class="bg-[url('/images/bs-2.jpg')]  blog-background ">                      
                       <div class="post-card-mask ">
@@ -42,7 +42,7 @@
               </a>
           </article>
           <article class="shadow mb-12">
-              <a href="">
+              <a href="/posts/:id">
                 <div class="post-card h-[300px]">
                   <div class="bg-[url('/images/bs-3.gif')]  blog-background ">                      
                       <div class="post-card-mask ">
@@ -62,7 +62,7 @@
               </a>
           </article>
           <article class="shadow mb-12">
-              <a href="">
+              <a href="/posts/:id">
                 <div class="post-card h-[300px]">
                   <div class="bg-[url('/images/bannerFour.jpg')]  blog-background ">                      
                       <div class="post-card-mask ">
@@ -80,7 +80,7 @@
               </a>
           </article>
           <article class="shadow mb-12">
-              <a href="">
+              <a href="/posts/:id">
                 <div class="post-card h-[300px]">
                   <div class="bg-[url('/images/bannerFive.gif')]  blog-background ">                      
                       <div class="post-card-mask ">
@@ -100,7 +100,7 @@
               </a>
           </article>
           <article class="shadow mb-12">
-              <a href="">
+              <a href="/posts/:id">
                 <div class="post-card h-[300px]">
                   <div class="bg-[url('/images/b-6.jpg')]  blog-background ">                      
                       <div class="post-card-mask ">
@@ -122,7 +122,7 @@
               </a>
           </article>
           <article class="shadow mb-12">
-              <a href="">
+              <a href="/posts/:id">
                 <div class="post-card h-[300px]">
                   <div class="bg-[url('/images/b-7.gif')]  blog-background ">                      
                       <div class="post-card-mask ">
@@ -142,7 +142,7 @@
               </a>
           </article>
           <article class="shadow mb-12">
-              <a href="">
+              <a href="/posts/:id">
                 <div class="post-card h-[300px]">
                   <div class="bg-[url('/images/b-8.jpg')]  blog-background ">                      
                       <div class="post-card-mask ">
@@ -162,7 +162,7 @@
               </a>
           </article>
           <article class="shadow mb-12">
-              <a href="">
+              <a href="/posts/:id">
                 <div class="post-card h-[300px]">
                   <div class="bg-[url('/images/b-9.gif')]  blog-background ">                      
                       <div class="post-card-mask ">
@@ -182,7 +182,7 @@
               </a>
           </article>
           <article class="shadow mb-12">
-              <a href="">
+              <a href="/posts/:id">
                 <div class="post-card h-[300px]">
                   <div class="bg-[url('/images/b-10.jpg')]  blog-background ">                      
                       <div class="post-card-mask ">
@@ -202,7 +202,7 @@
               </a>
           </article>
           <article class="shadow mb-12">
-              <a href="">
+              <a href="/posts/:id">
                 <div class="post-card h-[300px]">
                   <div class="bg-[url('/images/b-11.gif')]  blog-background ">                      
                       <div class="post-card-mask ">
@@ -240,6 +240,9 @@
     -ms-transition: 0.3s ease all;
     -o-transition: 0.3s ease all;
     transition: 0.3s ease all;
+}
+.post-card:hover {
+  transform: scale(1.04);
 }
 .blog-background {
     display: block;
